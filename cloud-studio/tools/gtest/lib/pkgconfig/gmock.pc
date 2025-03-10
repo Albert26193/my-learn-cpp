@@ -1,0 +1,10 @@
+libdir=/home/albert/remote-codespace/my-learn/my-learn-cpp/cloud-studio/tools/gtest/lib
+includedir=/home/albert/remote-codespace/my-learn/my-learn-cpp/cloud-studio/tools/gtest/include
+
+Name: gmock
+Description: GoogleMock (without main() function)
+Version: 1.16.0
+URL: https://github.com/google/googletest
+Requires: gtest = 1.16.0
+Libs: -L${libdir} -lgmock 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1
