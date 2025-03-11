@@ -5,3 +5,6 @@
 [submodule "cloud-studio/tools/googletest"]
 	path = cloud-studio/tools/googletest
 	url = https://github.com/google/googletest.git
+[submodule "cpp-things"]
+	path = cpp-things
+	url = https://github.com/Albert26193/cpp-things.git
