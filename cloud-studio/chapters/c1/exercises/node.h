@@ -10,8 +10,8 @@ public:
     BaseNode(uint64_t id): id(id) {
         // std::cout << "创建 node" <<  id << "调用BaseNode构造函数" << std::endl;
     }
-    ~BaseNode(){
-        std::cout <<"删除 node " <<  id << "调用BaseNode析构函数" << std::endl;
+    virtual ~BaseNode() {
+      std::cout << "删除 node " << id << "调用BaseNode析构函数" << std::endl;
     }
     uint64_t get_id() const {
         return id;

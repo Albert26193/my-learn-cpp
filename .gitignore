@@ -33,6 +33,7 @@
 
 # Build directories
 build/
+**/build/
 Debug/
 Release/
 
@@ -62,8 +63,13 @@ ext/
 ehthumbs.db
 Thumbs.db
 
-# Binary
-# *
-# !*/
-# !*.*
-# !Dockerfile
+# Cloud Studio
+cloud-studio/chapters/**/*
+!cloud-studio/chapters/**/*/
+!cloud-studio/**/*.cpp
+!cloud-studio/**/*.h
+!cloud-studio/**/*.hpp
+!cloud-studio/**/*.md
+!cloud-studio/**/Makefile
+!cloud-studio/**/*.txt
+!cloud-studio/Makefile
