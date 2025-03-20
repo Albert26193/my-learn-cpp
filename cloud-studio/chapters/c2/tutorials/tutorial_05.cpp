@@ -96,7 +96,7 @@ auto main() -> int {
 
   // 默认析构 _ZN5EmptyD2Ev
 
-  // B b1(1);
-  // B b2(2);
-  // b2 = b1;
+  B b1(1);
+  B b2(2);
+  b2 = b1;
 }

@@ -1,4 +1,3 @@
-
 # Default target executed when no arguments are given to make.
 default_target: all
 .PHONY : default_target
@@ -60,9 +59,9 @@ clean:
 	@echo "Clean complete"
 
 clean-binary:
-	@echo "Cleaning build artifacts..."
-	$(QUIET)rm -rf $(BUILD_DIR)
-	@echo "Clean complete"
+	@echo "Cleaning binary files..."
+	$(QUIET)find $(PROJ_DIR)/chapters -type f -executable -not -name "*.*" -exec rm -f {} \;
+	@echo "Binary files cleaned successfully"
 
 # AWK-generated help section
 help:
