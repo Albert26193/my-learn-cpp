@@ -9,3 +9,11 @@
 [submodule "cpp-things"]
 	path = cpp-things
 	url = https://github.com/Albert26193/cpp-things.git
+
+[submodule "cpp-templates"]
+	path = cpp-templates
+	url = https://github.com/Albert26193/cpp-templates.git
+
+[submodule "cpp-templates-tutorial"]
+	path = cpp-templates-tutorial
+	url = https://github.com/Albert26193/cpp-templates-tutorial.git
