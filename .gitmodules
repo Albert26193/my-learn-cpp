@@ -1,6 +1,6 @@
 [submodule "effective-modern-cpp"]
 	path = effective-modern-cpp
-	url = https://Albert26193/effective-modern-cpp.git
+	url = https://github.com/Albert26193/effective-modern-cpp.git
 
 [submodule "cloud-studio/tools/googletest"]
 	path = cloud-studio/tools/googletest
