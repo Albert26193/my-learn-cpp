@@ -14,6 +14,10 @@
 	path = cpp-templates
 	url = https://github.com/Albert26193/cpp-templates.git
 
+[submodule "cpp-design-pattern"]
+	path = cpp-templates
+	url = https://github.com/Albert26193/cpp-design-pattern.git
+
 [submodule "cpp-templates-tutorial"]
 	path = cpp-templates-tutorial
 	url = https://github.com/Albert26193/cpp-templates-tutorial.git
